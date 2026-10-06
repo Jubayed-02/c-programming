@@ -1,34 +1,20 @@
-# Binaries and objects
-*.o
-*.obj
-*.a
-*.so
-*.so.*
-*.dll
-*.dylib
-*.exe
-*.out
+# Compiled binaries
+main
 a.out
+*.o
+*.out
+*.exe
+*.so
+*.a
 
-# Debug
-*.dSYM/
-*.pdb
-
-# Build dirs
+# Build folders
 build/
 bin/
 out/
-dist/
-CMakeFiles/
-CMakeCache.txt
 
-# Editor / IDE
+# VS Code (optional — only if you don't want to share configs)
 .vscode/
-.idea/
-*.code-workspace
-*~
 
 # OS junk
 .DS_Store
 Thumbs.db
-desktop.ini
