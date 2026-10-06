@@ -1,1 +1,34 @@
+# Binaries and objects
+*.o
+*.obj
+*.a
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.out
+a.out
+
+# Debug
+*.dSYM/
+*.pdb
+
+# Build dirs
+build/
+bin/
+out/
+dist/
+CMakeFiles/
+CMakeCache.txt
+
+# Editor / IDE
 .vscode/
+.idea/
+*.code-workspace
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
