@@ -16,8 +16,7 @@ int main(){
     printf("%d x %d = %d\n", x, y, mul);
 
     // division
-    float z = y;
-    float div = x / z;
+    float div = (float) x / y;
     printf("%d / %d = %f\n", x, y, div);
     
     return 0;
